@@ -1,10 +1,10 @@
 let bandNumber = 1
 
 const takeNumber = function (bandName) {
-    console.log(bandNumber, bandName);
-    bandNumber++;
+    return bandNumber++ + ". " + bandName;
 }
 
 const scum = takeNumber("Galactic Scum")
+    console.log(scum)
 const under = takeNumber("Underdogs")
-const maybe = takeNumber("Maybe")
+    console.log(under)
